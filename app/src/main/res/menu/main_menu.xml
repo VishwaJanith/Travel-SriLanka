@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/menu_dashboard_icon"/>
+        <item
+            android:id="@+id/nav_search"
+            android:title="Search"
+            android:icon="@drawable/search_icon"/>
+        <item
+            android:id="@+id/nav_all_categories"
+            android:title="Categories"
+            android:icon="@drawable/category_icon"/>
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="Profile"
+                    android:icon="@drawable/profile_icon"/>
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="Login"
+                    android:icon="@drawable/profile_login_icon"/>
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Register"
+                    android:icon="@drawable/register_icon"/>
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="Categories">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_restaurants"
+                    android:title="Restaurants"
+                    android:icon="@drawable/restaurant_icon"/>
+                <item
+                    android:id="@+id/nav_hotel"
+                    android:title="Hotel"
+                    android:icon="@drawable/hotel_icon"/>
+                <item
+                    android:id="@+id/nav_hospital"
+                    android:title="Hospital"
+                    android:icon="@drawable/hospital_icon"/>
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="Share">
+        <menu>
+
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="Share"
+                    android:icon="@drawable/menu_share_icon"/>
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:title="Rate_us"
+                    android:icon="@drawable/menu_rate_us_icon"/>
+            </group>
+
+        </menu>
+    </item>
+
+
+</menu>

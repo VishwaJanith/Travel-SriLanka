@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">TRAVEL LK</string>
+
+    <!-- Strings for On Boarding Screen -->
+    <!--Titles-->
+    <string name="first_slide_title">Let\'s Travel</string>
+    <string name="second_slide_title">Online Maps</string>
+    <string name="third_slide_title">Find Destination</string>
+    <string name="fourth_slide_title">Sit Back And Enjoy</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">Travel Sri Lanka is a travel guide  that focuses on Sri Lanka, providing information and recommendations for tourists. </string>
+    <string name="second_slide_desc">This app supports online maps, allowing users to easily navigate and explore new destinations.</string>
+    <string name="third_slide_desc">This travel guide app helps users find destinations by providing recommendations and information on popular tourist spots.</string>
+    <string name="fourth_slide_desc">We will helps users enjoy their trip by providing valuable information, recommendations, and online maps to enhance their travel experience.</string>
+
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+
+
+    <!-- string for dashboard-->
+    <!-- categories-->
+
+    <string name="hotel">Hotels</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="Map">Map</string>
+    <string name="Categories">Categories</string>
+
+    <!-- Titles and Descriptions-->
+
+    <string name="featured_location">Best       Rated Locations</string>
+    <string name="featured_location_description">All the locations that are best rated and have demand in SL!</string>
+    <string name="most_viewed_locations">Most viewed</string>
+    <string name="categories">Categories</string>
+    <string name="view_all">View All</string>
+    <string name="search_text">Search....</string>
+    <string name="logo_name">Get A Way</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps_yala">Maps_yala</string>
+    <string name="title_activity_map_yala">Map_yala</string>
+
+    <!-- General String -->
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="retailer_heading">Treavel LK</string>
+    <string name="retailer_tag_line">Welcome to sri lanka</string>
+    <string name="create_account">Create\nAccount</string>
+    <string name="how_we_work">How we work</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="enter_username">Username</string>
+    <string name="enter_password">Password</string>
+    <string name="enter_full_name">Full Name</string>
+    <string name="field_username_icon">User Name</string>
+    <string name="enter_email">Email</string>
+    <string name="enter_phoneno">Phone Number</string>
+    <string name="title_activity_maps_hospital">MapsActivityHospital</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "783141751000",
+    "project_id": "travel-sri-lanka-2f0aa",
+    "storage_bucket": "travel-sri-lanka-2f0aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783141751000:android:f0173b76e0e83e6bb36fad",
+        "android_client_info": {
+          "package_name": "com.example.travel_sri_lanka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783141751000-lvg6unp1ufjllhimhlfkcalp2gn42ajr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMywZfO1226gzy4wGbQLUc1ookGGRBcwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783141751000-lvg6unp1ufjllhimhlfkcalp2gn42ajr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

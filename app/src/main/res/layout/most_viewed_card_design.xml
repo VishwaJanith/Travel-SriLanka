@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardMaxElevation="8dp"
+    android:layout_margin="12sp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/w2_image"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wild_2" />
+
+        <TextView
+            android:id="@+id/w2_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/w2_image"
+            android:fontFamily="sans-serif-black"
+            android:text="Sinharaja Forest"
+            android:textSize="20dp" />
+
+        <RatingBar
+            android:id="@+id/w2_rating"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/w2_title"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/w2_image"
+            android:rating="4" />
+
+        <TextView
+            android:id="@+id/w2_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/w2_rating"
+            android:layout_toRightOf="@id/w2_image"
+            android:padding="10dp"
+            android:text="A UNESCO-listed World Heritage Site and Biosphere Reserve, Sinharaja Forest Reserve is the last" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
